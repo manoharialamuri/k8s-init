@@ -7,6 +7,8 @@
 # data:
 #   MYSQL_ROOT_PASSWORD: Um9ib1Nob3BAMQ==
 # ---
+# in place of secretid we can use arn or secret id also
+#arn:aws:secretsmanager:us-east-1:971126626665:secret:/roboshop/dev/mysql_root_password-nVMqWa   
 apiVersion: apps/v1
 kind: Deployment
 metadata:
